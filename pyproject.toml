@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "image_sorter"
+version = "0.1.0"
+description = "Simple AI for identify if an image conatins a cat or a dog"
+authors = ["Alisson Lopez <alisson.hdz.lopez@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorflow = "^2.6.0"
+matplotlib = "^3.4.3"
+tensorflow-datasets = "^4.4.0"
+tensorflowjs = "^3.9.0"
+# opencv-python = "^4.5.3"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.9.3"
+flake8 = "^3.9.2"
+autoflake = "^1.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
